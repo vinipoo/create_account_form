@@ -1,0 +1,269 @@
+body {
+    background-image: linear-gradient(#45188B, #271B3A);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    justify-content: center;
+}
+
+a {
+    color: #3B86FF;
+    text-decoration: none;
+    font-weight: normal;
+    outline: none;
+    transition: all 0.2s;
+}
+
+.login-card-footer a {
+    color: #FFFFFF;
+}
+
+a:hover,
+a:focus {
+    color: #fdc654;
+    transition: all 0.2s;
+}
+
+html {
+    height: 100%;
+}
+
+.login-card {
+    padding: 32px 32px 0;
+    box-sizing: border-box;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    height: 100%;
+    max-height: 740px;
+    max-width: 350px;
+    flex-direction: column;
+}
+
+.login-card-content {
+    /* flex-grow: 2; */
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 23px;
+}
+
+.login-card-footer {
+    padding: 0px 0;
+}
+
+h2 .highlight {
+    color: #fdc654;
+}
+
+h2 {
+    font-size: 23px;
+    margin: 0;
+}
+
+h3 {
+    color: #d61e2d;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0;
+}
+
+.header {
+    margin-bottom: 50px;
+}
+
+.logo {
+    border-radius: 40px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 16px;
+    background: rgba(255, 255, 255, 0.1);
+    align-items: center;
+}
+
+button {
+    background: rgb(250, 40, 121);
+    background: linear-gradient(90deg, rgba(250, 40, 121, 1) 0%, rgba(252, 109, 92, 1) 100%);
+    display: block;
+    color: #ffffff;
+    width: 100%;
+    border: none;
+    border-radius: 40px;
+    padding: 18px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 32px;
+    outline: none;
+    box-shadow: 0 3px 6px #0000004d;
+}
+
+button:hover {
+    outline: 0;
+    -webkit-box-shadow: 0 5px 11px 0 rgba(77, 16, 49, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+    background: rgb(250, 40, 121);
+    background: linear-gradient(90deg, rgb(110, 19, 255) 0%, rgb(245, 5, 125) 100%);
+}
+
+.form-field {
+    margin-bottom: 16px;
+    width: 100%;
+    position: relative;
+}
+
+.gmail {
+    margin-bottom: 0px;
+    width: 100%;
+    position: relative;
+}
+
+.form-field .icon {
+    position: absolute;
+    background: white;
+    color: #791F6C;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    border-radius: 29px 0px 29px 29px;
+    transform: rotate(40deg);
+
+}
+
+.form-field i {
+    transform: rotate(-40deg);
+}
+
+
+
+.gmail .icon {
+    position: absolute;
+    background: white;
+    color: #791F6C;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    border-radius: 29px 0px 29px 29px;
+    transform: rotate(40deg);
+}
+
+.gmail i {
+    transform: rotate(-40deg);
+}
+
+.signWithGmail {
+
+    font-size: 114px;
+    color: #0000004d;
+}
+
+
+
+
+/* .form-field .icon:after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border: 12px solid transparent;
+    border-left: 12px solid white;
+    position: absolute;
+    top: 15px;
+    right: -20px;
+
+} */
+
+
+/* .gmail .icon:after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border: 12px solid transparent;
+    border-left: 12px solid white;
+    position: absolute;
+    top: 15px;
+    right: -20px;
+
+} */
+
+.form-field input {
+    border: 1px solid rgba(252, 109, 92, 61%);
+    text-align: center;
+    font-size: 17px;
+    width: 100%;
+    border-radius: 65px;
+    height: 48px;
+    background: rgba(250, 42, 120, 34%);
+    color: white;
+    outline: none;
+
+}
+
+.gmail button {
+    border: transparent;
+    text-align: center;
+    font-size: 13px;
+    padding-left: 24px;
+    width: 100%;
+    border-radius: 65px;
+    height: 48px;
+    background: #3B86FF;
+    color: white;
+    outline: none;
+
+}
+
+
+
+.form-field input::placeholder {
+    color: white;
+}
+
+/* 
+.gmail button::placeholder {
+    color: white;
+} */
+
+.form-field input:hover,
+.form-field input:focus {
+    background: white;
+    color: #d61e2d;
+    transition: all 0.2s;
+
+}
+
+
+.gmail button:hover,
+.gmail bu:focus {
+    background: #ccc;
+    color: #3B86FF;
+    transition: all 0.2s;
+
+}
+
+
+.form-field input:hover::placeholder {
+    color: #d61e2d;
+}
+
+/* .gmail input:hover::placeholder {
+    color: #d61e2d; 
+}*/
