@@ -46,6 +46,8 @@ html {
     flex-direction: column;
 }
 
+
+
 .login-card-content {
     /* flex-grow: 2; */
     justify-content: center;
@@ -226,7 +228,7 @@ button:hover {
     padding-left: 24px;
     width: 100%;
     border-radius: 65px;
-    height: 48px;
+    height: 50px;
     background: #3B86FF;
     color: white;
     outline: none;
@@ -255,7 +257,7 @@ button:hover {
 
 .gmail button:hover,
 .gmail bu:focus {
-    background: #ccc;
+    background: #FFFFFF;
     color: #3B86FF;
     transition: all 0.2s;
 
@@ -269,3 +271,9 @@ button:hover {
 /* .gmail input:hover::placeholder {
     color: #d61e2d; 
 }*/
+
+.under {
+    color: #707070;
+    font-size: 10px;
+
+}
